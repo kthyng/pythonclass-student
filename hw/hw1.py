@@ -19,4 +19,3 @@ def array_mean(a):
     '''
 
     return a.mean()
-
