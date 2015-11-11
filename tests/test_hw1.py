@@ -4,7 +4,9 @@ Tests for hw1.
 
 import numpy as np
 
-import hw1
+import imp
+
+hw1 = imp.load_source('hw1', 'hw/hw1.py')
 
 
 def test_make_array():
